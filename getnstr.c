@@ -6,6 +6,7 @@ int main(void) {
     char last[32];
 
     initscr();
+   
     addstr("What is your first name? ");
     refresh();
     getnstr(first, 15);

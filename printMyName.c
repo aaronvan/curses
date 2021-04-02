@@ -6,7 +6,8 @@ int main(void) {
     char second[] = " Aaron the Hero.";
 
     initscr();
-    addstr(first);
+    
+	addstr(first);
     addstr(second);
     addch('\n');
     printw("This is \"printw()\" command.\n");
@@ -14,5 +15,6 @@ int main(void) {
     getch();
 
     endwin();
-    return EXIT_SUCCESS;
+    
+	return EXIT_SUCCESS;
 }
