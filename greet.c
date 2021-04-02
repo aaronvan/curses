@@ -12,7 +12,7 @@ int main(void) {
 	addch(*ptr);
 	ptr++;
 	refresh();
-	napms(500);
+	napms(200);
     }
 
     getch();
